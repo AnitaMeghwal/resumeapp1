@@ -1,0 +1,110 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+body {
+  font-size: 120%;
+  font-family: Helvetica, Arial, sans-serif;
+  background: #404040;
+}
+
+img { 
+  max-width:25%; 
+  height:auto; 
+  margin: 20px auto 0px;
+  margin-left: 20px;
+            } 
+
+.header {
+  width: 30%;
+  margin: 100px auto 0px;
+  margin-left: 800px;
+  color: grey;
+  background: white;
+  text-align: center;
+  border: 1px solid grey;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 10px;
+}
+form, .content {
+  
+  width: 30%;
+  margin: 0px auto;
+  margin-left: 800px;
+  padding: 10px;
+  border: 1px solid #B0C4DE;
+  background: white;
+  border-radius: 0px 0px 10px 10px;
+}
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+.input-group label {
+  font-size: 75%;
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+.input-group input {
+  height: 20px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 1px solid #D3D3D3;
+}
+.btn {
+  width: 98%;
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: #FF6600;
+  border: none;
+  border-radius: 5px;
+}
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+}
+.success {
+  color: #3c763d; 
+  background: #dff0d8; 
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
+
+
+
+
+     /* Fix the button on the left side of the page */
+      .open-btn {
+      display: flex;
+      justify-content: left;
+      }
+      /* Style and fix the button on the page */
+      
+      /* Position the Popup form */
+      .login-popup {
+      position: absolute;
+      width: 100%;
+      }
+      /* Hide the Popup form */
+      .form-popup {
+      box-sizing: border-box;
+      display: none;
+      position: fixed;
+      left: 45%;
+      top:5%;
+      transform: translate(-45%,5%);
+      z-index: 9;
+      }
+      /* Styles for the form container */
+      
